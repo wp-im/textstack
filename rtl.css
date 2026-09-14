@@ -1,0 +1,8 @@
+body { direction: rtl; }
+.topbar, .footer-meta, .loop-bar, .filter-row { direction: rtl; }
+.path span:not(:last-child)::after { margin-right: .35rem; margin-left: 0; }
+.prose ul, .prose ol { padding-right: 1.4rem; padding-left: 0; }
+.alignleft { float: right; margin-right: 0; margin-left: 1.5rem; }
+.alignright { float: left; margin-right: 1.5rem; margin-left: 0; }
+.post-navigation .nav-next { text-align: left; }
+@media (max-width: 720px) { .footer-navigation .menu { justify-content: flex-start; } }

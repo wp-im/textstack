@@ -1,0 +1,17 @@
+.git/
+.gitignore
+.DS_Store
+build/
+docs/
+scripts/
+README.md
+.distignore
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+.env
+.env.*
+wp-config.php
+node_modules/

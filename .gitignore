@@ -1,0 +1,11 @@
+.DS_Store
+build/
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+.env
+.env.*
+wp-config.php
+node_modules/
