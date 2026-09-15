@@ -1,5 +1,6 @@
 .DS_Store
 build/
+site-assets/
 *.log
 *.sql
 *.sqlite

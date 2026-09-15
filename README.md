@@ -10,7 +10,7 @@ Textstack uses standard WordPress posts, pages, categories, menus, widgets, and 
 
 Textstack treats the page as a sheet of paper: one restrained palette, thin rules, a monospaced information layer, and generous space around the title and reading column. There are no external fonts or image services. The CSS is intentionally one small stylesheet so a site owner can understand and adapt the whole visual system.
 
-The optional `Textstack Showcase` page template provides a full-width, content-led surface for a product page, theme guide, or publication introduction. The template contains no site-specific marketing copy; its content remains in the WordPress page.
+The optional `Textstack Showcase` page template provides a content-led surface for a product page, theme guide, or publication introduction while retaining the shared utility/index rail. The template contains no site-specific marketing copy; its content remains in the WordPress page.
 
 The content model stays WordPress-native. Posts, pages, categories, tags, menus, widgets, the Customizer, featured images, excerpts, and block-editor content are the source of site content. The theme does not register custom post types, blocks, shortcodes, or application behavior that belongs in a plugin.
 
@@ -23,7 +23,7 @@ node --check assets/js/navigation.js
 ./scripts/package-release.sh
 ```
 
-The release script creates `build/textstack-1.0.1.zip` with the theme folder at the ZIP root and excludes project documentation, build output, VCS files, and local data. See `docs/release-checklist.md` for the full review sequence.
+The release script creates `build/textstack-1.0.2.zip` with the theme folder at the ZIP root and excludes project documentation, build output, VCS files, and local data. See `docs/release-checklist.md` for the full review sequence.
 
 ## Installation
 

@@ -3,7 +3,8 @@
  * Template Name: Textstack Showcase
  * Template Post Type: page
  *
- * A full-width, content-led page for a theme showcase or product guide.
+ * A content-led page for a theme showcase or product guide with the shared
+ * utility/index rail.
  * Keep the copy in the WordPress page so the template remains reusable.
  *
  * @package TextStack
@@ -11,7 +12,7 @@
 
 get_header();
 ?>
-<div class="site-layout no-sidebar showcase-layout">
+<div class="site-layout has-sidebar showcase-layout">
 	<main id="primary" class="content-panel showcase-panel">
 		<?php while ( have_posts() ) : the_post(); ?>
 			<article id="post-<?php the_ID(); ?>" <?php post_class( 'single-entry page-entry showcase-entry' ); ?>>
@@ -27,5 +28,6 @@ get_header();
 			</article>
 		<?php endwhile; ?>
 	</main>
+	<?php get_sidebar(); ?>
 </div>
 <?php get_footer(); ?>
