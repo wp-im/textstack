@@ -101,8 +101,8 @@ semantic and uncomplicated so it can be edited in the Classic Editor.
 <h2>Install in six steps</h2>
 <ol><li>Download the official ZIP above.</li><li>Open <strong>Appearance → Themes → Add New</strong> in WordPress.</li><li>Choose <strong>Upload Theme</strong>, select the ZIP, and install it.</li><li>Activate Textstack.</li><li>Assign menus and widgets under <strong>Appearance</strong>.</li><li>Set a normal static Page as the Front page or keep the normal posts index under <strong>Settings → Reading</strong>.</li></ol>
 <h2>Release details</h2>
-<dl><dt>Version</dt><dd>1.0.4</dd><dt>License</dt><dd>GPLv2 or later</dd><dt>WordPress</dt><dd>6.0 or later</dd><dt>PHP</dt><dd>7.4 or later</dd><dt>SHA-256</dt><dd>Generated with the release ZIP</dd></dl>
-<p>The release has been checked locally with PHP syntax checks, JavaScript syntax checks, Theme Check, and ZIP integrity tests. This page does not claim inclusion in the official WordPress.org directory.</p>
+<dl><dt>Version</dt><dd>1.0.4</dd><dt>License</dt><dd>GPLv2 or later</dd><dt>WordPress</dt><dd>6.0 or later</dd><dt>PHP</dt><dd>7.4 or later</dd><dt>SHA-256</dt><dd>8aec63347109ed61b1d2dfb2b4924e9ed1092f52481033c9cbebd0c9892dee4a</dd></dl>
+<p>Local release checks cover PHP syntax, JavaScript syntax, release ZIP integrity, and source/package scope. A WordPress.org Theme Check run is still a separate pre-submission step; this page does not claim inclusion in the official WordPress.org directory.</p>
 ```
 
 #### Design Notes
