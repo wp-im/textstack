@@ -29,7 +29,7 @@
 					<?php wp_nav_menu( array( 'theme_location' => 'footer', 'menu_class' => 'menu', 'container' => false, 'fallback_cb' => 'textstack_footer_menu_fallback', 'depth' => 1 ) ); ?>
 				</nav>
 			</div>
-			<p class="footer-credit"><?php echo esc_html( sprintf( __( 'Published with %s.', 'textstack' ), 'Text Stack' ) ); ?></p>
+			<p class="footer-credit"><?php echo esc_html( sprintf( __( 'Published with %s.', 'textstack' ), 'Textstack' ) ); ?></p>
 		</footer>
 	</div>
 </div>

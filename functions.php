@@ -1,6 +1,6 @@
 <?php
 /**
- * Text Stack theme bootstrap.
+ * Textstack theme bootstrap.
  *
  * @package TextStack
  */
@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TEXTSTACK_VERSION', '1.0.0' );
+define( 'TEXTSTACK_VERSION', '1.0.1' );
 
 $textstack_inc = get_template_directory() . '/inc';
 

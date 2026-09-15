@@ -1,4 +1,4 @@
-# Text Stack content samples
+# Textstack content samples
 
 These are optional editorial seeds for a personal-blog demonstration site. They are intentionally kept outside the theme so users can replace, translate, or remove them without editing code.
 

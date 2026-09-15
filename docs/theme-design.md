@@ -16,7 +16,9 @@ The reference is the personal-blog surface of INKLR, not its network homepage. T
 
 ## Diversity without code forks
 
-Text Stack supports a wide range of personal writing through ordinary WordPress inputs: site title/tagline, menus, categories, tags, widgets, Customizer colors, featured images, excerpts, and block-editor content. The demo copy in `content-samples.md` demonstrates different voices, but the theme has no built-in editorial identity that would constrain the user.
+Textstack supports a wide range of personal writing through ordinary WordPress inputs: site title/tagline, menus, categories, tags, widgets, Customizer colors, featured images, excerpts, and block-editor content. The demo copy in `content-samples.md` demonstrates different voices, but the theme has no built-in editorial identity that would constrain the user.
+
+The optional `Textstack Showcase` page template adds a full-width content surface for a theme presentation or publication guide. It provides structure and responsive spacing only; all product copy remains editable page content.
 
 ## Intentionally out of scope
 

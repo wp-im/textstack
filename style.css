@@ -3,8 +3,8 @@ Theme Name: Textstack
 Theme URI: https://wordpress.im/textstack/
 Author: wp-im
 Author URI: https://wordpress.im/
-Description: A quiet, text-first classic theme for personal blogs, notebooks, and small publications.
-Version: 1.0.0
+Description: A text-first personal publishing index for writers, critics, researchers, journals, and small independent publications.
+Version: 1.0.1
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 7.4
@@ -23,7 +23,7 @@ Tags: blog, one-column, two-columns, custom-logo, custom-menu, featured-images, 
 	--line: #d2d2cc;
 	--line-strong: #a7a7a0;
 	--muted: #6b6b64;
-	--soft: #92928a;
+	--soft: #74746d;
 	--sans: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Helvetica Neue", Arial, sans-serif;
 	--mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
 	--shell: 1180px;
@@ -212,6 +212,29 @@ hr { height: 1px; margin: 2rem 0; border: 0; background: var(--line); }
 .footer-navigation .menu { justify-content: flex-end; font: .68rem/1.3 var(--mono); color: #cfcfc8; }
 .footer-credit { margin: 0; padding: .65rem 1.5rem; border-top: 1px solid #444; color: #999; font: .64rem/1.4 var(--mono); }
 
+.showcase-panel { width: 100%; }
+.showcase-hero { padding: clamp(3rem, 9vw, 7rem) clamp(1.2rem, 6vw, 5rem) clamp(2.5rem, 7vw, 5rem); }
+.showcase-hero .entry-title { max-width: 58rem; }
+.showcase-content { max-width: 1080px; padding: 0 clamp(1.2rem, 6vw, 5rem); }
+.showcase-content > .showcase-section { padding: clamp(2.5rem, 6vw, 5rem) 0; border-bottom: 1px solid var(--line); }
+.showcase-content > .showcase-section:last-child { border-bottom: 0; }
+.showcase-content .showcase-lead { max-width: 54rem; margin: 0; font-size: clamp(1.15rem, 2vw, 1.55rem); line-height: 1.55; }
+.showcase-content .showcase-strap { margin-top: 1.25rem; color: var(--muted); font: .78rem/1.5 var(--mono); }
+.showcase-content .showcase-actions { display: flex; flex-wrap: wrap; gap: .7rem 1rem; margin-top: 1.5rem; }
+.showcase-content .showcase-actions a { display: inline-block; padding: .55rem .8rem; border: 1px solid var(--accent); text-decoration: none; }
+.showcase-content .showcase-actions a:first-child { background: var(--accent); color: #fff; }
+.showcase-content .showcase-actions a:hover { background: var(--accent); color: #fff; }
+.showcase-content .showcase-section > h2 { max-width: 48rem; margin-top: 0; font-size: clamp(1.8rem, 4vw, 3rem); letter-spacing: -.055em; }
+.showcase-content .showcase-section > p { max-width: 48rem; }
+.showcase-content .showcase-terms { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1rem; margin-top: 2rem; }
+.showcase-content .showcase-term { padding-top: .75rem; border-top: 2px solid var(--accent); }
+.showcase-content .showcase-term h3 { margin: 0 0 .45rem; font: .78rem/1.3 var(--mono); text-transform: uppercase; }
+.showcase-content .showcase-term p { margin: 0; color: var(--muted); font-size: .9rem; }
+.showcase-content .showcase-columns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem 4rem; }
+.showcase-content .showcase-columns > * { min-width: 0; }
+.showcase-content .showcase-proof { margin-top: 1.5rem; padding: 1rem 1.2rem; border-left: 3px solid var(--accent); background: rgba(0, 0, 0, .025); }
+.showcase-content .showcase-proof p { margin: 0; }
+
 .wp-caption, .gallery { max-width: 100%; }
 .wp-caption-text, .gallery-caption { color: var(--muted); font: .72rem/1.5 var(--mono); }
 .gallery { display: grid; gap: 1rem; }
@@ -262,7 +285,11 @@ th, td { padding: .5rem; border: 1px solid var(--line); text-align: left; }
 	.footer-credit { padding-inline: 1.2rem; }
 	.prose .alignfull { width: calc(100% + 2.4rem); max-width: none; margin-left: -1.2rem; transform: none; }
 	.gallery-columns-3, .gallery-columns-4 { grid-template-columns: repeat(2, 1fr); }
+	.showcase-content .showcase-terms, .showcase-content .showcase-columns { grid-template-columns: 1fr; gap: 1.4rem; }
+	.showcase-content .showcase-section { padding-block: 2.5rem; }
 }
+
+:lang(zh) .entry-title, :lang(ja) .entry-title, :lang(zh) .home-intro h1, :lang(ja) .home-intro h1, :lang(zh) .archive-intro h1, :lang(ja) .archive-intro h1 { letter-spacing: -.025em; }
 
 @media (prefers-reduced-motion: reduce) {
 	html { scroll-behavior: auto; }

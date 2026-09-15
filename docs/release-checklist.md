@@ -4,6 +4,7 @@
 
 - [ ] `style.css` has complete theme headers and the version matches `readme.txt`.
 - [ ] `index.php`, `comments.php`, and `screenshot.png` are present at the theme root.
+- [ ] The optional Showcase page template remains content-driven and contains no site-specific marketing copy.
 - [ ] All PHP files pass `php -l`.
 - [ ] JavaScript passes `node --check`.
 - [ ] No credentials, database exports, local paths, VCS metadata, build artifacts, or logs are in the release.

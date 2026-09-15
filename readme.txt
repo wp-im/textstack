@@ -4,11 +4,11 @@ Tags: blog, one-column, two-columns, custom-logo, custom-menu, featured-images, 
 Requires at least: 6.0
 Requires PHP: 7.4
 Tested up to: 7.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Text Stack is a quiet, text-first classic theme for personal blogs, notebooks, and small publications. It is designed around a strong reading column, a useful optional sidebar, thin rules, restrained color, and content that remains editable in WordPress itself.
+Textstack is a text-first personal publishing index for writers, critics, researchers, journals, and small independent publications. It is designed around a strong reading column, a useful utility rail, visible paths, restrained color, and content that remains editable in WordPress itself.
 
 == Features ==
 
@@ -20,21 +20,22 @@ Text Stack is a quiet, text-first classic theme for personal blogs, notebooks, a
 * A small Customizer color palette with no external fonts, trackers, or remote assets.
 * A keyboard-friendly mobile navigation menu and reduced-motion support.
 * Reading time, automatic article heading IDs, and a collapsible article index.
+* An optional full-width Showcase page template for content-led product or publication pages.
 
 == Installation ==
 
 1. Download the `textstack.zip` release file.
 2. In WordPress, open Appearance > Themes > Add New > Upload Theme.
-3. Upload the ZIP file and activate Text Stack.
+3. Upload the ZIP file and activate Textstack.
 4. Add menus under Appearance > Menus and assign them to the available locations.
 5. Add widgets under Appearance > Widgets if you want a custom sidebar or footer.
 6. Set your site title and tagline under Settings > General. Add a custom logo under Appearance > Customize.
 
 == Content and customization ==
 
-Text Stack does not include hardcoded demo posts, categories, custom post types, shortcodes, or blocks. Add editorial content through normal WordPress posts and pages. The project repository includes optional content ideas in `docs/content-samples.md`; that document is not included in the deployable theme ZIP.
+Textstack does not include hardcoded demo posts, categories, custom post types, shortcodes, or blocks. Add editorial content through normal WordPress posts and pages. The project repository includes optional content ideas in `docs/content-samples.md`; that document is not included in the deployable theme ZIP.
 
-The four color controls in Appearance > Customize > Text Stack Colors change the ink, page background, content surface, and rule colors. The theme intentionally keeps the visual system small so that a site identity can be established with content, logo, and a few palette decisions.
+The four color controls in Appearance > Customize > Textstack Colors change the ink, page background, content surface, and rule colors. The theme intentionally keeps the visual system small so that a site identity can be established with content, logo, and a few palette decisions.
 
 == Accessibility ==
 
@@ -42,13 +43,17 @@ The theme includes a skip link, semantic landmarks, visible keyboard focus throu
 
 == Privacy ==
 
-Text Stack does not send data to remote services and does not include analytics, advertising, social tracking, external fonts, or remote images. WordPress core and other installed plugins may have their own privacy behavior.
+Textstack does not send data to remote services and does not include analytics, advertising, social tracking, external fonts, or remote images. WordPress core and other installed plugins may have their own privacy behavior.
 
 == License ==
 
-Text Stack is distributed under the GNU General Public License, version 2 or later. See `LICENSE` in the source package.
+Textstack is distributed under the GNU General Public License, version 2 or later. See `LICENSE` in the source package.
 
 == Changelog ==
+
+= 1.0.1 =
+* Added the reusable full-width Showcase page template.
+* Refined public product language, brand naming, CJK heading spacing, editor styles, and supporting contrast.
 
 = 1.0.0 =
 * Initial standalone release for personal blogs and small publications.

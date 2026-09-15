@@ -38,7 +38,7 @@ function textstack_customize_register( $wp_customize ) {
 	$wp_customize->add_section(
 		'textstack_colors',
 		array(
-			'title'       => __( 'Text Stack Colors', 'textstack' ),
+			'title'       => __( 'Textstack Colors', 'textstack' ),
 			'description' => __( 'Adjust the quiet four-color palette used by the theme.', 'textstack' ),
 			'priority'    => 40,
 		)
