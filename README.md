@@ -23,7 +23,7 @@ node --check assets/js/navigation.js
 ./scripts/package-release.sh
 ```
 
-The release script creates `build/textstack-1.0.2.zip` with the theme folder at the ZIP root and excludes project documentation, build output, VCS files, and local data. See `docs/release-checklist.md` for the full review sequence.
+The release script creates `build/textstack-1.0.3.zip` with the theme folder at the ZIP root and excludes project documentation, build output, VCS files, and local data. See `docs/release-checklist.md` for the full review sequence.
 
 ## Installation
 

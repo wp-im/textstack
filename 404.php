@@ -7,7 +7,7 @@
 
 get_header();
 ?>
-<div class="site-layout no-sidebar">
+<div class="site-layout has-sidebar">
 	<main id="primary" class="content-panel narrow-panel">
 		<section class="not-found">
 			<p class="eyebrow">404</p>
@@ -17,5 +17,6 @@ get_header();
 			<p><a class="button-link" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'Return home', 'textstack' ); ?></a></p>
 		</section>
 	</main>
+	<?php get_sidebar(); ?>
 </div>
 <?php get_footer(); ?>

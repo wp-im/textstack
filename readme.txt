@@ -4,7 +4,7 @@ Tags: blog, one-column, two-columns, custom-logo, custom-menu, featured-images, 
 Requires at least: 6.0
 Requires PHP: 7.4
 Tested up to: 7.1
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -50,6 +50,10 @@ Textstack does not send data to remote services and does not include analytics, 
 Textstack is distributed under the GNU General Public License, version 2 or later. See `LICENSE` in the source package.
 
 == Changelog ==
+
+= 1.0.3 =
+
+* Kept the 404 template connected to the shared sidebar and utility/index rail.
 
 = 1.0.2 =
 

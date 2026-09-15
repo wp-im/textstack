@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TEXTSTACK_VERSION', '1.0.2' );
+define( 'TEXTSTACK_VERSION', '1.0.3' );
 
 $textstack_inc = get_template_directory() . '/inc';
 

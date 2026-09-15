@@ -18,7 +18,7 @@ The page title is `A text-first personal publishing index.`. Add the following c
 ```html
 <p class="showcase-lead">Textstack turns WordPress into a clear, navigable archive for writing that accumulates over time. Built for writers, critics, researchers, journals, and small independent publications.</p>
 <p class="showcase-strap">Editorial structure. Software-interface clarity.</p>
-<p class="showcase-actions"><a href="/textstack/archive/">View the archive</a> <a href="https://github.com/wp-im/textstack/releases/download/v1.0.2/textstack-1.0.2.zip">Download Textstack</a> <a href="/textstack/documentation/">Documentation</a></p>
+<p class="showcase-actions"><a href="/textstack/archive/">View the archive</a> <a href="https://github.com/wp-im/textstack/releases/download/v1.0.3/textstack-1.0.3.zip">Download Textstack</a> <a href="/textstack/documentation/">Documentation</a></p>
 
 <section class="showcase-section">
 <p class="eyebrow">01 / ACCUMULATION</p>
@@ -73,7 +73,7 @@ The page title is `A text-first personal publishing index.`. Add the following c
 <section class="showcase-section">
 <p class="eyebrow">08 / RELEASE</p>
 <h2>Read it, use it, keep your archive</h2>
-<p>Explore the <a href="/textstack/archive/">live archive</a>, read the <a href="/textstack/documentation/">documentation</a>, or download the current <a href="https://github.com/wp-im/textstack/releases/download/v1.0.2/textstack-1.0.2.zip">Textstack release ZIP</a>. Textstack is GPLv2+ and keeps its content model in WordPress.</p>
+<p>Explore the <a href="/textstack/archive/">live archive</a>, read the <a href="/textstack/documentation/">documentation</a>, or download the current <a href="https://github.com/wp-im/textstack/releases/download/v1.0.3/textstack-1.0.3.zip">Textstack release ZIP</a>. Textstack is GPLv2+ and keeps its content model in WordPress.</p>
 </section>
 ```
 
@@ -126,13 +126,13 @@ HTML semantic and uncomplicated so it can be edited in the Classic Editor.
 #### Install Textstack
 
 ```html
-<p class="showcase-lead">Textstack 1.0.2 is the current release.</p>
-<p><a class="button" href="https://github.com/wp-im/textstack/releases/download/v1.0.2/textstack-1.0.2.zip">Download textstack-1.0.2.zip</a></p>
-<p>Source and release notes: <a href="https://github.com/wp-im/textstack">github.com/wp-im/textstack</a> · <a href="https://github.com/wp-im/textstack/releases/tag/v1.0.2">Release v1.0.2</a></p>
+<p class="showcase-lead">Textstack 1.0.3 is the current release.</p>
+<p><a class="button" href="https://github.com/wp-im/textstack/releases/download/v1.0.3/textstack-1.0.3.zip">Download textstack-1.0.3.zip</a></p>
+<p>Source and release notes: <a href="https://github.com/wp-im/textstack">github.com/wp-im/textstack</a> · <a href="https://github.com/wp-im/textstack/releases/tag/v1.0.3">Release v1.0.3</a></p>
 <h2>Install in six steps</h2>
 <ol><li>Download the official ZIP above.</li><li>Open <strong>Appearance → Themes → Add New</strong> in WordPress.</li><li>Choose <strong>Upload Theme</strong>, select the ZIP, and install it.</li><li>Activate Textstack.</li><li>Assign menus and widgets under <strong>Appearance</strong>.</li><li>Set a static Showcase front page or keep the normal posts index under <strong>Settings → Reading</strong>.</li></ol>
 <h2>Release details</h2>
-<dl><dt>Version</dt><dd>1.0.2</dd><dt>License</dt><dd>GPLv2 or later</dd><dt>WordPress</dt><dd>6.0 or later</dd><dt>PHP</dt><dd>7.4 or later</dd><dt>SHA-256</dt><dd><code>fa96e4dceedaef875d4748e18a13af5f278d19cf5bfaf86453557aa3a728fda3</code></dd></dl>
+<dl><dt>Version</dt><dd>1.0.3</dd><dt>License</dt><dd>GPLv2 or later</dd><dt>WordPress</dt><dd>6.0 or later</dd><dt>PHP</dt><dd>7.4 or later</dd><dt>SHA-256</dt><dd><code>3f79fe6d3a73c91bfe9dca472e50bc4656e88a97b73c45c7e5fc3e8999d98121</code></dd></dl>
 <p>The release has been checked locally with PHP syntax checks, JavaScript syntax checks, Theme Check, and ZIP integrity tests. This page does not claim inclusion in the official WordPress.org directory.</p>
 ```
 
@@ -152,7 +152,9 @@ HTML semantic and uncomplicated so it can be edited in the Classic Editor.
 #### Changelog
 
 ```html
-<p class="showcase-lead">Textstack 1.0.2 · September 2026</p>
+<p class="showcase-lead">Textstack 1.0.3 · September 2026</p>
+<h2>1.0.3</h2>
+<ul><li>Kept the 404 template connected to the shared sidebar and utility/index rail.</li><li>Completed the all-pages sidebar rule across the public templates.</li></ul>
 <h2>1.0.2</h2>
 <ul><li>Kept the Showcase page connected to the shared sidebar and utility/index rail.</li><li>Preserved the same small, content-driven template surface.</li></ul>
 <h2>1.0.1</h2>

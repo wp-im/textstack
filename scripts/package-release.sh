@@ -2,7 +2,7 @@
 set -euo pipefail
 
 root="$(CDPATH='' cd -- "$(dirname -- "$0")/.." && pwd)"
-version="${1:-1.0.2}"
+version="${1:-1.0.3}"
 build_dir="$root/build"
 zip_path="$build_dir/textstack-$version.zip"
 sha_path="$zip_path.sha256"
@@ -17,7 +17,7 @@ from pathlib import Path
 root = Path(sys.argv[1]).resolve()
 zip_path = Path(sys.argv[2]).resolve()
 excluded_names = {
-    ".git", ".gitignore", ".distignore", ".DS_Store", "build", "docs", "scripts",
+    ".git", ".gitignore", ".distignore", ".DS_Store", "build", "docs", "scripts", "site-assets",
     "README.md", "AGENTS.md", "CLAUDE.md",
 }
 excluded_suffixes = (".log", ".sql", ".sqlite", ".sqlite3", ".db")
