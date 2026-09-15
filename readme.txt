@@ -20,7 +20,7 @@ Textstack is a text-first personal publishing index for writers, critics, resear
 * A small Customizer color palette with no external fonts, trackers, or remote assets.
 * A keyboard-friendly mobile navigation menu and reduced-motion support.
 * Reading time, automatic article heading IDs, and a collapsible article index.
-* An optional full-width Showcase page template for content-led product or publication pages.
+* An optional content-led Showcase page template with the shared utility/index rail.
 
 == Installation ==
 
@@ -60,7 +60,7 @@ Textstack is distributed under the GNU General Public License, version 2 or late
 * Kept the Showcase page connected to the shared sidebar and utility/index rail.
 
 = 1.0.1 =
-* Added the reusable full-width Showcase page template.
+* Added the reusable content-led Showcase page template.
 * Refined public product language, brand naming, CJK heading spacing, editor styles, and supporting contrast.
 
 = 1.0.0 =

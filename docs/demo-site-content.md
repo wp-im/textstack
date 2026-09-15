@@ -158,7 +158,7 @@ HTML semantic and uncomplicated so it can be edited in the Classic Editor.
 <h2>1.0.2</h2>
 <ul><li>Kept the Showcase page connected to the shared sidebar and utility/index rail.</li><li>Preserved the same small, content-driven template surface.</li></ul>
 <h2>1.0.1</h2>
-<ul><li>Added the reusable Textstack Showcase page template for full-width product and publication introductions.</li><li>Refined the public product positioning and release documentation.</li><li>Improved auxiliary text contrast and relaxed heading tracking for Chinese and Japanese.</li><li>Added matching Showcase and Classic Editor styles without adding a framework or external dependency.</li></ul>
+<ul><li>Added the reusable Textstack Showcase page template for content-led product and publication introductions.</li><li>Refined the public product positioning and release documentation.</li><li>Improved auxiliary text contrast and relaxed heading tracking for Chinese and Japanese.</li><li>Added matching Showcase and Classic Editor styles without adding a framework or external dependency.</li></ul>
 <h2>1.0.0</h2>
 <p>Initial standalone Classic Theme release with ordinary WordPress archives, responsive navigation, comments, widgets, RTL support, and a compact editorial reading system.</p>
 <p><a href="https://github.com/wp-im/textstack/releases">View all releases on GitHub</a></p>
