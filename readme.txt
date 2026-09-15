@@ -4,7 +4,7 @@ Tags: blog, one-column, two-columns, custom-logo, custom-menu, featured-images, 
 Requires at least: 6.0
 Requires PHP: 7.4
 Tested up to: 7.1
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,7 +20,7 @@ Textstack is a text-first personal publishing index for writers, critics, resear
 * A small Customizer color palette with no external fonts, trackers, or remote assets.
 * A keyboard-friendly mobile navigation menu and reduced-motion support.
 * Reading time, automatic article heading IDs, and a collapsible article index.
-* An optional content-led Showcase page template with the shared utility/index rail.
+* A standard WordPress page template with the shared utility/index rail on every page.
 
 == Installation ==
 
@@ -33,7 +33,7 @@ Textstack is a text-first personal publishing index for writers, critics, resear
 
 == Content and customization ==
 
-Textstack does not include hardcoded demo posts, categories, custom post types, shortcodes, or blocks. Add editorial content through normal WordPress posts and pages. The project repository includes optional content ideas in `docs/content-samples.md`; that document is not included in the deployable theme ZIP.
+Textstack does not include hardcoded demo posts, categories, custom post types, shortcodes, or blocks. Add editorial content through normal WordPress posts and pages. The project repository includes optional content ideas in `docs/content-samples.md`; those documents are not included in the deployable theme ZIP.
 
 The four color controls in Appearance > Customize > Textstack Colors change the ink, page background, content surface, and rule colors. The theme intentionally keeps the visual system small so that a site identity can be established with content, logo, and a few palette decisions.
 
@@ -51,16 +51,21 @@ Textstack is distributed under the GNU General Public License, version 2 or late
 
 == Changelog ==
 
+= 1.0.4 =
+
+* Documented the v1.0 visual system and restored its compact archive-first proportions.
+* Removed the special Showcase template and styles so all Pages use editor content and the ordinary page template.
+* Kept the sidebar and utility/index rail on every public template.
+
 = 1.0.3 =
 
 * Kept the 404 template connected to the shared sidebar and utility/index rail.
 
 = 1.0.2 =
 
-* Kept the Showcase page connected to the shared sidebar and utility/index rail.
+* Kept the product demonstration page connected to the shared sidebar and utility/index rail.
 
 = 1.0.1 =
-* Added the reusable content-led Showcase page template.
 * Refined public product language, brand naming, CJK heading spacing, editor styles, and supporting contrast.
 
 = 1.0.0 =

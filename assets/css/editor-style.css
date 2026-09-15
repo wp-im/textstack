@@ -6,12 +6,4 @@
 .editor-styles-wrapper a { text-underline-offset: .16em; }
 .editor-styles-wrapper blockquote { border-left: 3px solid #111; padding-left: 1.25rem; }
 .editor-styles-wrapper code, .editor-styles-wrapper pre { font-family: "SFMono-Regular", Consolas, monospace; }
-.editor-styles-wrapper:lang(zh) h1, .editor-styles-wrapper:lang(ja) h1, .editor-styles-wrapper:lang(zh) h2, .editor-styles-wrapper:lang(ja) h2, .editor-styles-wrapper:lang(zh) h3, .editor-styles-wrapper:lang(ja) h3 { letter-spacing: -.025em; }
-.editor-styles-wrapper .showcase-section { padding: 3rem 0; border-bottom: 1px solid #d2d2cc; }
-.editor-styles-wrapper .showcase-terms, .editor-styles-wrapper .showcase-columns { display: grid; gap: 1rem 2rem; }
-.editor-styles-wrapper .showcase-terms { grid-template-columns: repeat(5, minmax(0, 1fr)); }
-.editor-styles-wrapper .showcase-columns { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-.editor-styles-wrapper .showcase-term { padding-top: .75rem; border-top: 2px solid #111; }
-@media (max-width: 720px) {
-	.editor-styles-wrapper .showcase-terms, .editor-styles-wrapper .showcase-columns { grid-template-columns: 1fr; }
-}
+.editor-styles-wrapper:lang(zh) h1, .editor-styles-wrapper:lang(ja) h1, .editor-styles-wrapper:lang(zh) h2, .editor-styles-wrapper:lang(ja) h2, .editor-styles-wrapper:lang(zh) h3, .editor-styles-wrapper:lang(ja) h3, .editor-styles-wrapper:lang(zh) h4, .editor-styles-wrapper:lang(ja) h4 { letter-spacing: -.025em; }

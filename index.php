@@ -7,7 +7,7 @@
 
 get_header();
 ?>
-<div class="site-layout <?php echo textstack_has_sidebar() ? 'has-sidebar' : 'no-sidebar'; ?>">
+<div class="site-layout has-sidebar">
 	<main id="primary" class="content-panel">
 		<?php if ( is_search() || is_archive() ) : ?>
 			<header class="archive-intro">

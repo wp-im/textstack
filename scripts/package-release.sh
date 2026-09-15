@@ -2,7 +2,7 @@
 set -euo pipefail
 
 root="$(CDPATH='' cd -- "$(dirname -- "$0")/.." && pwd)"
-version="${1:-1.0.3}"
+version="${1:-1.0.4}"
 build_dir="$root/build"
 zip_path="$build_dir/textstack-$version.zip"
 sha_path="$zip_path.sha256"

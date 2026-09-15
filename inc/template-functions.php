@@ -39,10 +39,6 @@ function textstack_add_heading_ids( $content ) {
 }
 add_filter( 'the_content', 'textstack_add_heading_ids', 20 );
 
-function textstack_has_sidebar() {
-	return is_active_sidebar( 'sidebar-1' ) || ! is_singular( 'page' );
-}
-
 function textstack_archive_heading() {
 	if ( is_category() ) {
 		return single_cat_title( '', false );

@@ -1,80 +1,49 @@
 # Textstack demo site content
 
-This is the content source for the public `wordpress.im/textstack/` showcase. The copy belongs to the site, not to the deployable theme ZIP. Keep the site English-first for the global WordPress audience and use the multilingual entries to demonstrate CJK typography and content portability.
+This is the content source for the public `wordpress.im/textstack/` demo site. The copy belongs to the site, not to the deployable theme ZIP. Keep the site English-first for the global WordPress audience and use the multilingual entries to demonstrate CJK typography and content portability.
 
 ## Site settings
 
 * Site title: `Textstack`
 * Tagline: `A text-first personal publishing index.`
-* Front page: `A text-first personal publishing index.` using the `Textstack Showcase` template
+* Front page: `A text-first personal publishing index.` using the ordinary Page template and editor content
 * Posts page: `Archive`
 * Primary language: English
 * Sample entry languages: English, Simplified Chinese, Traditional Chinese, and Japanese
 
-## Showcase page
+## Front page content
 
-The page title is `A text-first personal publishing index.`. Add the following content in the Code editor so the page remains portable between Classic Editor and block-editor installs:
+The page title is `A text-first personal publishing index.`. Add the following ordinary HTML in the editor. It uses only paragraphs, headings, links, and lists so the page remains portable between Classic Editor and block-editor installs:
 
 ```html
-<p class="showcase-lead">Textstack turns WordPress into a clear, navigable archive for writing that accumulates over time. Built for writers, critics, researchers, journals, and small independent publications.</p>
-<p class="showcase-strap">Editorial structure. Software-interface clarity.</p>
-<p class="showcase-actions"><a href="/textstack/archive/">View the archive</a> <a href="https://github.com/wp-im/textstack/releases/download/v1.0.3/textstack-1.0.3.zip">Download Textstack</a> <a href="/textstack/documentation/">Documentation</a></p>
+<p>Textstack turns WordPress into a clear, navigable archive for writing that accumulates over time. Built for writers, critics, researchers, journals, and small independent publications.</p>
+<p>Editorial structure. Software-interface clarity.</p>
+<p><a href="/textstack/archive/">View the archive</a> · <a href="https://github.com/wp-im/textstack/releases/download/v1.0.4/textstack-1.0.4.zip">Download Textstack</a> · <a href="/textstack/documentation/">Documentation</a></p>
 
-<section class="showcase-section">
-<p class="eyebrow">01 / ACCUMULATION</p>
 <h2>Built for accumulation</h2>
 <p>Most themes are designed around a homepage. Textstack is designed around what happens after years of publishing. Entries accumulate into a stack. Categories, archives and search turn that stack into an index. Paths keep every page connected to the whole. Every route eventually leads back to a quiet surface for reading.</p>
-</section>
-
-<section class="showcase-section">
-<p class="eyebrow">02 / THE SYSTEM</p>
 <h2>Stack / Index / Path / Entry / Paper</h2>
-<div class="showcase-terms">
-<div class="showcase-term"><h3>Stack</h3><p>Publish one entry at a time. Let the collection grow without forcing a complex model.</p></div>
-<div class="showcase-term"><h3>Index</h3><p>Categories, archives, search and authors make a growing body of work retrievable.</p></div>
-<div class="showcase-term"><h3>Path</h3><p>Visible routes and ordinary links show where each entry belongs.</p></div>
-<div class="showcase-term"><h3>Entry</h3><p>Essays, notes, observations and records share one durable publishing unit.</p></div>
-<div class="showcase-term"><h3>Paper</h3><p>The system recedes when it is time to read.</p></div>
-</div>
-</section>
-
-<section class="showcase-section">
-<p class="eyebrow">03 / LONG-TERM VALUE</p>
+<h3>Stack</h3><p>Publish one entry at a time. Let the collection grow without forcing a complex model.</p>
+<h3>Index</h3><p>Categories, archives, search and authors make a growing body of work retrievable.</p>
+<h3>Path</h3><p>Visible routes and ordinary links show where each entry belongs.</p>
+<h3>Entry</h3><p>Essays, notes, observations and records share one durable publishing unit.</p>
+<h3>Paper</h3><p>The system recedes when it is time to read.</p>
 <h2>A site that gets better as it grows</h2>
-<div class="showcase-columns"><div><p><strong>Ten entries make a blog.</strong><br><strong>A hundred entries begin to form an archive.</strong><br><strong>A thousand entries need a system.</strong></p></div><div><p>Textstack is designed so that more publishing does not create more clutter. Categories, time, paths, search and archives become more useful as the collection grows.</p></div></div>
-</section>
-
-<section class="showcase-section">
-<p class="eyebrow">04 / WHO IT IS FOR</p>
+<p><strong>Ten entries make a blog.</strong><br><strong>A hundred entries begin to form an archive.</strong><br><strong>A thousand entries need a system.</strong></p>
+<p>Textstack is designed so that more publishing does not create more clutter. Categories, time, paths, search and archives become more useful as the collection grows.</p>
 <h2>For work that accumulates</h2>
-<div class="showcase-columns"><p>Writers and critics. Researchers and reading journals. City observations and field notes. Long-running diaries. Cultural writing. Small independent magazines. Personal knowledge archives.</p><p>Textstack works best when a site is not a campaign, but a continuing body of work.</p></div>
-</section>
-
-<section class="showcase-section">
-<p class="eyebrow">05 / EDITORIAL INTERFACE</p>
+<p>Writers and critics. Researchers and reading journals. City observations and field notes. Long-running diaries. Cultural writing. Small independent magazines. Personal knowledge archives.</p>
+<p>Textstack works best when a site is not a campaign, but a continuing body of work.</p>
 <h2>Editorial, without imitating print</h2>
 <p>Textstack does not recreate a newspaper or magazine on screen. Its editorial character comes from hierarchy, metadata, indexing and navigation. Monospaced labels, visible paths, restrained rules and system-like navigation borrow the grammar of software interfaces while keeping the reading surface quiet.</p>
-<p class="showcase-proof"><strong>The interface organizes. The paper reads.</strong></p>
-</section>
-
-<section class="showcase-section">
-<p class="eyebrow">06 / NATIVE CONTENT</p>
+<p><strong>The interface organizes. The paper reads.</strong></p>
 <h2>WordPress, left intact</h2>
 <p>Textstack works with WordPress as WordPress. Your posts remain posts, categories remain categories, and archives remain real archives. No proprietary content model is required, and your writing does not depend on theme-specific shortcodes to survive.</p>
 <p>Customize the identity, not the system.</p>
-</section>
-
-<section class="showcase-section">
-<p class="eyebrow">07 / QUIET BY DESIGN</p>
 <h2>Small by conviction</h2>
 <p>No external font dependency. No analytics. No advertising code. No social tracking. Minimal front-end JavaScript. The theme stays small because the publishing model does not require a large interface layer.</p>
-</section>
-
-<section class="showcase-section">
-<p class="eyebrow">08 / RELEASE</p>
 <h2>Read it, use it, keep your archive</h2>
-<p>Explore the <a href="/textstack/archive/">live archive</a>, read the <a href="/textstack/documentation/">documentation</a>, or download the current <a href="https://github.com/wp-im/textstack/releases/download/v1.0.3/textstack-1.0.3.zip">Textstack release ZIP</a>. Textstack is GPLv2+ and keeps its content model in WordPress.</p>
-</section>
+<p>Explore the <a href="/textstack/archive/">live archive</a>, read the <a href="/textstack/documentation/">documentation</a>, or download the current <a href="https://github.com/wp-im/textstack/releases/download/v1.0.4/textstack-1.0.4.zip">Textstack release ZIP</a>. Textstack is GPLv2+ and keeps its content model in WordPress.</p>
 ```
 
 ## Pages
@@ -88,13 +57,13 @@ The page title is `A text-first personal publishing index.`. Add the following c
 
 ### Page copy
 
-The following copy is the publication source for the non-Showcase pages. Keep the
-HTML semantic and uncomplicated so it can be edited in the Classic Editor.
+The following copy is the publication source for the pages. Keep the HTML
+semantic and uncomplicated so it can be edited in the Classic Editor.
 
 #### About Textstack
 
 ```html
-<p class="showcase-lead">Textstack is a text-first personal publishing index for writers, critics, researchers, journals, and small independent publications.</p>
+<p>Textstack is a text-first personal publishing index for writers, critics, researchers, journals, and small independent publications.</p>
 <p>It gives ordinary WordPress content a calm structure: entries gather in a stack, the index makes them retrievable, and every path remains visible.</p>
 <h2>For a continuing body of work</h2>
 <p>Use Textstack for essays, reading notes, field observations, research logs, diaries, and the small records that become meaningful when they stay together. It is made for a site that will still be useful after the first ten posts.</p>
@@ -108,15 +77,15 @@ HTML semantic and uncomplicated so it can be edited in the Classic Editor.
 #### Documentation
 
 ```html
-<p class="showcase-lead">Textstack is a conventional Classic Theme with a small visual system and a clear publishing surface.</p>
+<p>Textstack is a conventional Classic Theme with a small visual system and a clear publishing surface.</p>
 <h2>Install</h2>
 <p>Upload the release ZIP from <strong>Appearance → Themes → Add New → Upload Theme</strong>, install it, and activate Textstack. For a manual install, extract the <code>textstack</code> folder into <code>wp-content/themes/</code>.</p>
 <h2>Set up the site</h2>
-<ol><li>Create an empty page named <strong>Archive</strong> and assign it as the Posts page under <strong>Settings → Reading</strong>.</li><li>Use a page with the <strong>Textstack Showcase</strong> template as the static Front page when you want the product-style home.</li><li>Assign the Primary menu to the header and Footer menu to the footer. The optional Category Filter location is for archive filtering only.</li></ol>
+<ol><li>Create an empty page named <strong>Archive</strong> and assign it as the Posts page under <strong>Settings → Reading</strong>.</li><li>Create a normal Page for the static Front page and enter its content in the editor.</li><li>Assign the Primary menu to the header and Footer menu to the footer. The optional Category Filter location is for archive filtering only.</li></ol>
 <h2>Organize the archive</h2>
 <p>Use Categories for durable editorial areas and Tags for the smaller connections between entries. Textstack does not require a custom post type. A post can be short, long, illustrated, or entirely text.</p>
 <h2>Utility rail</h2>
-<p>The sidebar is an index rail: Search, a short site introduction, Categories, Archives, and a single download prompt. Empty widgets are not part of the design. Every page, including Showcase, keeps this shared rail so the product document remains connected to the archive.</p>
+<p>The sidebar is an index rail: Search, a short site introduction, Categories, Archives, and a single download prompt. Empty widgets are not part of the design. Every Page keeps this shared rail so the site remains connected to the archive.</p>
 <h2>Editing and accessibility</h2>
 <p>Editor styles keep the Classic Editor close to the front-end reading surface. Keyboard navigation, visible focus states, responsive media, semantic landmarks, comments, RTL styles, and reduced-motion preferences are included in the theme’s small interface layer.</p>
 <h2>Customization</h2>
@@ -126,20 +95,20 @@ HTML semantic and uncomplicated so it can be edited in the Classic Editor.
 #### Install Textstack
 
 ```html
-<p class="showcase-lead">Textstack 1.0.3 is the current release.</p>
-<p><a class="button" href="https://github.com/wp-im/textstack/releases/download/v1.0.3/textstack-1.0.3.zip">Download textstack-1.0.3.zip</a></p>
-<p>Source and release notes: <a href="https://github.com/wp-im/textstack">github.com/wp-im/textstack</a> · <a href="https://github.com/wp-im/textstack/releases/tag/v1.0.3">Release v1.0.3</a></p>
+<p>Textstack 1.0.4 is the current release.</p>
+<p><a href="https://github.com/wp-im/textstack/releases/download/v1.0.4/textstack-1.0.4.zip">Download textstack-1.0.4.zip</a></p>
+<p>Source and release notes: <a href="https://github.com/wp-im/textstack">github.com/wp-im/textstack</a> · <a href="https://github.com/wp-im/textstack/releases/tag/v1.0.4">Release v1.0.4</a></p>
 <h2>Install in six steps</h2>
-<ol><li>Download the official ZIP above.</li><li>Open <strong>Appearance → Themes → Add New</strong> in WordPress.</li><li>Choose <strong>Upload Theme</strong>, select the ZIP, and install it.</li><li>Activate Textstack.</li><li>Assign menus and widgets under <strong>Appearance</strong>.</li><li>Set a static Showcase front page or keep the normal posts index under <strong>Settings → Reading</strong>.</li></ol>
+<ol><li>Download the official ZIP above.</li><li>Open <strong>Appearance → Themes → Add New</strong> in WordPress.</li><li>Choose <strong>Upload Theme</strong>, select the ZIP, and install it.</li><li>Activate Textstack.</li><li>Assign menus and widgets under <strong>Appearance</strong>.</li><li>Set a normal static Page as the Front page or keep the normal posts index under <strong>Settings → Reading</strong>.</li></ol>
 <h2>Release details</h2>
-<dl><dt>Version</dt><dd>1.0.3</dd><dt>License</dt><dd>GPLv2 or later</dd><dt>WordPress</dt><dd>6.0 or later</dd><dt>PHP</dt><dd>7.4 or later</dd><dt>SHA-256</dt><dd><code>3f79fe6d3a73c91bfe9dca472e50bc4656e88a97b73c45c7e5fc3e8999d98121</code></dd></dl>
+<dl><dt>Version</dt><dd>1.0.4</dd><dt>License</dt><dd>GPLv2 or later</dd><dt>WordPress</dt><dd>6.0 or later</dd><dt>PHP</dt><dd>7.4 or later</dd><dt>SHA-256</dt><dd>Generated with the release ZIP</dd></dl>
 <p>The release has been checked locally with PHP syntax checks, JavaScript syntax checks, Theme Check, and ZIP integrity tests. This page does not claim inclusion in the official WordPress.org directory.</p>
 ```
 
 #### Design Notes
 
 ```html
-<p class="showcase-lead">Textstack’s design can be read through five words.</p>
+<p>Textstack’s design can be read through five words.</p>
 <h2>Stack</h2><p>Publishing is additive. Each entry joins the collection without needing to become a campaign.</p>
 <h2>Index</h2><p>Categories, dates, authors, search, and tags make a growing collection retrievable.</p>
 <h2>Path</h2><p>Breadcrumb-like context, ordinary links, and visible metadata keep the reader oriented.</p>
@@ -152,13 +121,15 @@ HTML semantic and uncomplicated so it can be edited in the Classic Editor.
 #### Changelog
 
 ```html
-<p class="showcase-lead">Textstack 1.0.3 · September 2026</p>
+<p>Textstack 1.0.4 · September 2026</p>
+<h2>1.0.4</h2>
+<ul><li>Documented the v1.0 visual system and restored its compact archive-first proportions.</li><li>Removed the special Showcase template and styles; Pages now use editor content and the ordinary page template.</li><li>Kept the shared sidebar and utility/index rail on every public template.</li></ul>
 <h2>1.0.3</h2>
 <ul><li>Kept the 404 template connected to the shared sidebar and utility/index rail.</li><li>Completed the all-pages sidebar rule across the public templates.</li></ul>
 <h2>1.0.2</h2>
-<ul><li>Kept the Showcase page connected to the shared sidebar and utility/index rail.</li><li>Preserved the same small, content-driven template surface.</li></ul>
+<ul><li>Kept the product demonstration page connected to the shared sidebar and utility/index rail.</li><li>Preserved the same small, content-driven template surface.</li></ul>
 <h2>1.0.1</h2>
-<ul><li>Added the reusable Textstack Showcase page template for content-led product and publication introductions.</li><li>Refined the public product positioning and release documentation.</li><li>Improved auxiliary text contrast and relaxed heading tracking for Chinese and Japanese.</li><li>Added matching Showcase and Classic Editor styles without adding a framework or external dependency.</li></ul>
+<ul><li>Refined the public product positioning and release documentation.</li><li>Improved auxiliary text contrast and relaxed heading tracking for Chinese and Japanese.</li><li>Added matching Classic Editor styles without adding a framework or external dependency.</li></ul>
 <h2>1.0.0</h2>
 <p>Initial standalone Classic Theme release with ordinary WordPress archives, responsive navigation, comments, widgets, RTL support, and a compact editorial reading system.</p>
 <p><a href="https://github.com/wp-im/textstack/releases">View all releases on GitHub</a></p>
@@ -242,4 +213,4 @@ The entries should explain the theme by being good entries, not by repeatedly ad
 
 ## Utility rail
 
-Configure the sidebar in this order: Search, About this site, Explore/Categories, Archives, and Get Textstack. Remove empty Recent Comments and default widget titles. Keep the Showcase page and footer focused; the download prompt belongs once in the page and once in the utility rail, not in every entry.
+Configure the sidebar in this order: Search, About this site, Explore/Categories, Archives, and Get Textstack. Remove empty Recent Comments and default widget titles. Keep the front page and footer focused; the download prompt belongs once in the page and once in the utility rail, not in every entry.
